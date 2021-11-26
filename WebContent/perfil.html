@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <link rel="stylesheet" href="perfil.css">
+    
+    <title>VIDEOCLUB</title>
+</head>
+<body>
+	
+		<div id="menu">
+	   	<div><button id="atras">Peliculas</button></div>
+	   	<div><button id="salir">Logout</button></div>
+	   	</div>
+	   	
+	   	<div id="suce"></div>
+	   	<div id="error"></div>
+	   	 
+	    <div id="margen">
+		<br>
+		<h2>Peliculas alquiladas</h2>
+		
+		<div id="mispeliculas"></div>
+
+		<br>
+
+		<h2>Modificar datos</h2>
+	<table>
+        <tr>
+            <td><label for="nombre">Nombre: </label></td>
+            <td><input type="text" id="nombre" required ></td>
+        </tr>
+        <tr>
+            <td><label for="apellido">Apellidos: </label></td>
+            <td><input type="text" id="apellido" required ></td>
+        </tr>
+        <tr>
+            <td><label for="clave">Contraseña: </label></td>
+            <td><input type="password" id="clave" required ></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email: </label></td>
+            <td><input type="email" id="email" required ></td>
+        </tr>
+        <tr>
+            <td><label for="check">Cliente vip: </label></td>
+            <td><input class="check" type="checkbox" id="check" ></td>
+        </tr><tr>
+            <td></td>
+        </tr>
+    </table>
+    <input type="button" value="Modificar" id="modificar">
+        
+		<br>
+		<h2>Añadir saldo para alquilar peliculas</h2>
+		<p><input type="button" value="Enviar" id="saldo">
+           <input type="text" id="cantidad" ></p>
+           
+		
+		<br>
+		<h2>Eliminar cuenta</h2>
+    	
+    	<input type="button" value="Eliminar" id="eliminar">
+    </div>
+
+        <script src="perfil.js"></script>
+    
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Registro nuevo usuarios</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+
+    <div class="titulo">
+        <h1>REGISTRO DE USUARIO</h1>
+        </div>
+    <div class="registro">
+        <table>
+            <div class="wtf">
+            <tr>
+                <td><label for="nick">Nickname: </label></td>
+                <td><input type="text" id="nick" required autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">Nombre: </label></td>
+                <td><input type="text" id="nombre" required ></td>
+            </tr>
+            <tr>
+                <td><label for="apellido">Apellidos: </label></td>
+                <td><input type="text" id="apellido" required ></td>
+            </tr>
+            <tr>
+                <td><label for="clave">contraseña: </label></td>
+                <td><input type="password" id="clave" required ></td>
+            </tr>
+            <tr>
+                <td><label for="clave2">Repetir contraseña: </label></td>
+                <td><input type="password" id="clave2" required ></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email: </label></td>
+                <td><input type="email" id="email" required ></td>
+            </tr>
+            <tr>
+                <td><label for="check">Cliente vip: </label></td>
+                <td><input class="check" type="checkbox" id="check" ></td>
+            </tr><tr>
+                <td></td>
+                <td><button id="btnregistro" class="btn">Registrame</button></td>
+            </tr>
+        </table>
+    </div>
+    
+        <script src="script.js"></script>
+</body>
+</html>
